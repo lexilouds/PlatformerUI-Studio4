@@ -7,6 +7,7 @@ public class InputManager : MonoBehaviour
     public UnityEvent OnJump = new();
     public UnityEvent OnDash = new();
     public UnityEvent OnSettingsMenu = new();
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.P))
